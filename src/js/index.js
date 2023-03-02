@@ -1,6 +1,8 @@
 //import react into the bundle
 import React from "react";
 import ReactDOM from "react-dom";
+import Semaforo from './component/Semaforo.jsx'
+import semaforoStyles from '../styles/semaforoStyles.css'
 
 // include your styles into the webpack bundle
 import "../styles/index.css";
@@ -9,4 +11,4 @@ import "../styles/index.css";
 import Home from "./component/home.jsx";
 
 //render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+ReactDOM.render(<Semaforo />, document.querySelector("#app"));
